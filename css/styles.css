@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9) url('../images/pila-vista-superior-capas-papel-colores.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#myForm {
+    width: 60%;
+    background: rgba(255, 255, 255, 0.048) no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    padding: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+#myForm p {
+    font-size: 2rem;
+    margin-bottom: 4%;
+}
+
+#NombreCategoria,
+#DescripcionCat {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 4%;
+    box-sizing: border-box;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: #fff;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+    color: #fff;
+}

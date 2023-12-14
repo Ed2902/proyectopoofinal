@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body style="width: 100%; background: rgba(255, 255, 255, 0.9) url('../images/pila-vista-superior-capas-papel-colores.jpg') no-repeat center center fixed; background-size: cover;">
+    <div class="container d-flex align-items-center justify-content-center vh-100">
+        <form method="POST" action="../Objetos/guardarproducto.php" class="text-center border border-light p-5 shadow-lg rounded-lg"
+            style="width: 60%; background: rgba(255, 255, 255, 0.048) no-repeat center center fixed; background-size: cover;">
+
+            <p class="h4 mb-4">Producto</p>
+
+            <!-- Nombre -->
+            <div class="mb-4">
+                <input type="text" name="NombreProd" id="NombreProd" class="form-control" placeholder="Nombre">
+            </div>
+
+            <!-- Codigo producto -->
+            <div class="mb-4">
+                <input type="number" name="CodigoProducto" id="CodigoProducto" class="form-control" placeholder="Codigo producto">
+            </div>
+
+            <!-- Descripcion -->
+            <div class="mb-4">
+                <input type="text" name="DescripcionProd" id="DescripcionProd" class="form-control" placeholder="Descripcion">
+            </div>
+
+            <!-- Precio Venta -->
+            <div class="mb-4">
+                <input type="number" name="PrecioUnitario" id="PrecioUnitario" class="form-control" placeholder="Precio Venta">
+            </div>
+
+            <!-- Precio de Compra -->
+            <div class="mb-4">
+                <input type="number" name="PrecioCompra" id="PrecioCompra" class="form-control" placeholder="Precio de Compra">
+            </div>
+
+            <!-- Can Disponible -->
+            <div class="mb-4">
+                <input type="number" name="Cantidad_Disponible" id="Cantidad_Disponible" class="form-control" placeholder="Can Disponible">
+            </div>
+
+            <!-- Categoria -->
+            <div class="mb-4">
+                <input type="number" name="ID_CategoriaFK" id="ID_CategoriaFK" class="form-control" placeholder="Categoria">
+            </div>
+
+            <!-- Enviar -->
+            <button type="submit" class="btn btn-info btn-block">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
